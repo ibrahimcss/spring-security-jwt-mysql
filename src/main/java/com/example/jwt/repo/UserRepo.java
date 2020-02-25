@@ -1,4 +1,4 @@
-package com.vaibhav.sec.repo;
+package com.example.jwt.repo;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.vaibhav.sec.model.User;
+import com.example.jwt.model.User;
 
 @Repository
 public interface UserRepo extends JpaRepository<User, Long> {

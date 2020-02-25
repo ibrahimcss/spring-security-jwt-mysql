@@ -1,12 +1,12 @@
-package com.vaibhav.sec;
+package com.example.jwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SSecApplication {
+public class JwtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SSecApplication.class, args);
+		SpringApplication.run(JwtApplication.class, args);
 	}
 }

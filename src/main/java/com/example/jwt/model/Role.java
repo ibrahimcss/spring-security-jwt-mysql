@@ -1,4 +1,4 @@
-package com.vaibhav.sec.model;
+package com.example.jwt.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.vaibhav.sec.exception;
+package com.example.jwt.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

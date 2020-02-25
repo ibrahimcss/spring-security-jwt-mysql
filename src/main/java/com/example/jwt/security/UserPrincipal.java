@@ -1,4 +1,4 @@
-package com.vaibhav.sec.security;
+package com.example.jwt.security;
 
 import java.util.Collection;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.vaibhav.sec.model.User;
+import com.example.jwt.model.User;
 
 public class UserPrincipal implements UserDetails {
 

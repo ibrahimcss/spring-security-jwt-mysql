@@ -1,4 +1,4 @@
-package com.vaibhav.sec.security;
+package com.example.jwt.security;
 
 import java.util.Date;
 

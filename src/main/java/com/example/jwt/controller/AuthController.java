@@ -1,4 +1,4 @@
-package com.vaibhav.sec.controller;
+package com.example.jwt.controller;
 
 import java.net.URI;
 import java.util.Collections;
@@ -19,13 +19,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.vaibhav.sec.exception.AppException;
-import com.vaibhav.sec.model.Role;
-import com.vaibhav.sec.model.RoleName;
-import com.vaibhav.sec.model.User;
-import com.vaibhav.sec.repo.RoleRepo;
-import com.vaibhav.sec.repo.UserRepo;
-import com.vaibhav.sec.security.JwtTokenProvider;
+import com.example.jwt.exception.AppException;
+import com.example.jwt.model.Role;
+import com.example.jwt.model.RoleName;
+import com.example.jwt.model.User;
+import com.example.jwt.repo.RoleRepo;
+import com.example.jwt.repo.UserRepo;
+import com.example.jwt.security.JwtTokenProvider;
 
 import payloads.ApiResponse;
 import payloads.JwtAuthenticationResponse;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.vaibhav.sec.model;
+package com.example.jwt.model;
 
 import java.util.HashSet;
 import java.util.Set;

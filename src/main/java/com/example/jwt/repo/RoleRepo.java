@@ -1,12 +1,12 @@
-package com.vaibhav.sec.repo;
+package com.example.jwt.repo;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.vaibhav.sec.model.Role;
-import com.vaibhav.sec.model.RoleName;
+import com.example.jwt.model.Role;
+import com.example.jwt.model.RoleName;
 
 @Repository
 public interface RoleRepo extends JpaRepository<Role, Long> {

@@ -1,4 +1,4 @@
-package com.vaibhav.sec.security;
+package com.example.jwt.security;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
