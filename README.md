@@ -2,7 +2,7 @@
 
 
 ### Ayarlar
-* JAVA JDK SURUMU 1.8 OLARAK AYARLANMALI
+* JAVA JDK SURUMU 1.8 OLARAK AYARLANMALI file -> project structure -> project SDK java 1.8
 	* application.properties dosyasından sunucu port ve veritabanı bilgilerini ayarlayın
 	* Veri tabanına aşşağıdaki komutlar vasıtası ile yada manuel olarak rolleri ekleyiniz
 	
